@@ -1,0 +1,41 @@
+*{
+	font-family: 'Nunito Sans', sans-serif;
+	color: #FFFFFF;
+	font-weight: 100;
+
+}
+
+body{
+	background-color: #121212;
+}
+
+.navbar-nav > li{
+
+  padding-left:40px;
+  
+}
+
+p {
+	
+	line-height: 1.6;
+}
+
+.img-responsive {
+	width: 90%;
+	border-radius: 10px;
+	margin-bottom:18%;
+}
+
+.img-responsive-alt {
+	width: 60%;
+	border-radius: 10px;
+}
+
+@media screen and (max-width:600px) {
+	.img-responsive {
+		width:75%;
+		border-radius:10px;
+		margin-bottom:5%;
+	}
+}
+
